@@ -20,20 +20,23 @@ public class Lab3_Ariana_Rodriguez
 
      // recieve input from user 
      System.out.println("Please enter the initial value of the home:");
-     initialValue = scanner.nextDouble(200000); // input initial value from home into scanner
+     initialValue = input.nextDouble(); // input initial value from home into scanner
 
      
-     System.out.println("");
-     years = scanner.nextInt();
+     System.out.println("Please enter the number of elapsed years: ");
+     years = input.nextInt();
 
-     System.out.println("");
-
-     InterestRate = InterestRate
-     finalValue = initialValue
+     System.out.println("Please enter the interest rate: ");
+     InterestRate = input.nextDouble();
      
-     System.out.printf("");
+     InterestRate = InterestRate / 100; //convert interest rate into a decimal
+ 
+     // convert final value using compound interest formula; A = P(1 + r) ^t
+     finalValue = initialValue * Math.pow(1 + InterestRate, years);
+     
+     System.out.printf("The final value of the home is: %.2f%n", finalValue); // output the result
 
-     scanner.close();
+     input.close(); //closing scanner
 
 
      
