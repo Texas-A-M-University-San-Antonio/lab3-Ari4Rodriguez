@@ -1,0 +1,60 @@
+// Ariana Rodriguez
+// 9/16/2025
+// compound interest calculation
+// import and declare a scanner
+import java.util.Scanner;
+
+public class Lab3_Ariana_Rodriguez
+{
+    public static void main(String[] args) 
+    {
+
+     // Create a scanner object for user input
+     Scanner input = new Scanner(System.in);
+     
+     // Declare the required variables
+     double initialValue; // this is the initial value for the home
+     int years; // number of elapsed years
+     double InterestRate; // interest rate (as a %)
+     double finalValue; // Final value of the home after interest
+
+     // recieve input from user 
+     System.out.println("Please enter the initial value of the home:");
+     initialValue = scanner.nextDouble(200000); // input initial value from home into scanner
+
+     
+     System.out.println("");
+     years = scanner.nextInt();
+
+     System.out.println("");
+
+     InterestRate = InterestRate
+     finalValue = initialValue
+     
+     System.out.printf("");
+
+     scanner.close();
+
+
+     
+
+
+
+
+
+
+
+
+
+
+
+
+
+    } 
+ }
+
+
+
+
+
+
