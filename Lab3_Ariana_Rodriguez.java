@@ -37,6 +37,7 @@ public class Lab3_Ariana_Rodriguez
      System.out.printf("The final value of the home is: %.2f%n", finalValue); // output the result
 
      input.close(); //closing scanner
+     
 
 
      
